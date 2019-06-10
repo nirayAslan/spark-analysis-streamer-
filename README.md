@@ -171,3 +171,6 @@ You can watch it here.
 - How can I see Dashboard?
 Open your browser and write localhost:3001
 You can see the real-time dashboard here.
+View from the dashboard:
+![Dashboard View](https://i.postimg.cc/8PFJVtWm/dashboard.png)
+

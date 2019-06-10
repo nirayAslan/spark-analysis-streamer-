@@ -1,0 +1,181 @@
+<div id='container' style="height:100%;width:100%;"></div>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="http://code.highcharts.com/highcharts.js"></script>
+<script src="http://code.highcharts.com/modules/exporting.js"></script>
+<script src="/socket.io/socket.io.js"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+	    var socket = io();
+	    var series;
+        Highcharts.setOptions({
+            global: {
+                useUTC: false
+            },
+            lang: {
+                thousandsSep: ','
+            }
+        });
+
+        chart = new Highcharts.Chart({
+            chart: {
+		        renderTo: 'container',
+                type: 'spline',
+                animation: Highcharts.svg, // don't animate in old IE
+                marginRight: 10,
+
+            },
+            title: {
+                text: '5 Farklı Sunucunun Bulunduğu Şehirlerden Gelen Log Analizi'
+            },
+            xAxis: {
+                type: 'datetime',
+                tickPixelInterval: 150,
+                title: {
+                    text: 'Time',
+                    style: {
+                        fontWeight: 'bold'
+                    }
+                }
+            },
+            yAxis: {
+                title: {
+                    text: 'Total Log Count',
+                    style: {
+                        fontWeight: 'bold'
+                    }
+                },
+                plotLines: [{
+                    value: 0,
+                    width: 1,
+                    color: '#808080'
+                }]
+            },
+            tooltip: {
+                formatter: function () {
+                    return '<b>' + this.series.name + '</b><br/>' +
+                        Highcharts.dateFormat('%Y-%m-%d %H:%M:%S', this.x) + '<br/>' + Highcharts.numberFormat(this.y, 0);
+                }
+            },
+            legend: {
+                enabled: true
+            },
+            exporting: {
+                enabled: true
+            },
+            series: [{
+                name: 'Istanbul',
+                data: (function () {
+                    // generate an array of random data
+                    var data = [],
+                        time = (new Date()).getTime(),
+                        i;
+
+                    for (i = -3; i <= 0; i += 1) {
+                        data.push({
+                            x: time + i * 1000,
+                            y: 0
+                        });
+                    }
+                    return data;
+                }())
+            },
+            {
+                name: 'Tokyo',
+                data: (function () {
+                    // generate an array of random data
+                    var data = [],
+                        time = (new Date()).getTime(),
+                        i;
+
+                    for (i = -3; i <= 0; i += 1) {
+                        data.push({
+                            x: time + i * 1000,
+                            y: 0
+                        });
+                    }
+                    return data;
+                }())
+            },
+            {
+                name: 'Moskow',
+                data: (function () {
+                    // generate an array of random data
+                    var data = [],
+                        time = (new Date()).getTime(),
+                        i;
+
+                    for (i = -3; i <= 0; i += 1) {
+                        data.push({
+                            x: time + i * 1000,
+                            y: 0
+                        });
+                    }
+                    return data;
+                }())
+            },
+            {
+                name: 'Beijing',
+                data: (function () {
+                    // generate an array of random data
+                    var data = [],
+                        time = (new Date()).getTime(),
+                        i;
+
+                    for (i = -3; i <= 0; i += 1) {
+                        data.push({
+                            x: time + i * 1000,
+                            y: 0
+                        });
+                    }
+                    return data;
+                }())
+            },
+            {
+                name: 'London',
+                data: (function () {
+                    // generate an array of random data
+                    var data = [],
+                        time = (new Date()).getTime(),
+                        i;
+
+                    for (i = -3; i <= 0; i += 1) {
+                        data.push({
+                            x: time + i * 1000,
+                            y: 0
+                        });
+                    }
+                    return data;
+                }())
+            }]
+        });
+        //Spark ile verileri analiz ederken json biçimine döndürmeye çalışmanın sebebi,
+        // burada aşağıdaki gibi rahatça alıp okuyabileceğimiz içindi. 
+        socket.on('message', function(data){
+            data = JSON.parse(data);
+            data.forEach(item => {
+                console.log(item);
+                if (item.city === "Istanbul") {
+                chart.series[0].addPoint([(new Date()).getTime(), item.count], true, true);
+               
+            }
+            if (item.city === 'Tokyo') {
+                chart.series[1].addPoint([(new Date()).getTime(), item.count], true, true);
+                
+            }
+            if (item.city === 'Moskow') {
+                chart.series[2].addPoint([(new Date()).getTime(), item.count], true, true);
+                
+            }
+            if (item.city === 'Beijing') {
+                chart.series[3].addPoint([(new Date()).getTime(), item.count], true, true);
+                
+            }
+            if (item.city === 'London') {
+                chart.series[4].addPoint([(new Date()).getTime(), item.count], true, true);
+                
+            } 
+            });
+            chart.redraw();
+        });
+    });
+</script>

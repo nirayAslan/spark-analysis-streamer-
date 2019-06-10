@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN" monitorInterval="30">
+    <Properties>
+        <Property name="LOG_PATTERN">
+            %d{yyyy-MM-dd HH:mm:ss.SSS} %p %m%n
+        </Property>
+    </Properties>
+    <Appenders>
+        <!-- Logları Konsolda yayınla -->
+        <Console name="ConsoleAppender" target="SYSTEM_OUT" follow="true">
+            <PatternLayout pattern="${LOG_PATTERN}"/>
+        </Console>
+        <!-- Logları localhost:9092 adresindeki kafka sunucusuna bağlanıp unrefined topiğine aktar -->
+        <Kafka name="Kafka" topic="unrefined">
+            <PatternLayout pattern="${LOG_PATTERN}"/>
+            <Property name="bootstrap.servers">localhost:9092</Property>
+        </Kafka>
+        <!-- /logs/logcreator-teb.log şeklinde dosyaya aktar, 2 MB limit ver -->
+        <RollingFile name="FileAppender" fileName="logs/logcreator-teb.log"
+                     filePattern="logs/logcreator-teb-%d{yyyy-MM-dd}-%i.log">
+            <PatternLayout>
+                <Pattern>${LOG_PATTERN}</Pattern>
+            </PatternLayout>
+            <Policies>
+                <TimeBasedTriggeringPolicy interval="1" />
+                <SizeBasedTriggeringPolicy size="2MB" />
+            </Policies>
+            <DefaultRolloverStrategy max="10"/>
+        </RollingFile>
+
+    </Appenders>
+
+    <Loggers>
+        <Root level="info">
+            <AppenderRef ref="Kafka" />
+            <AppenderRef ref="ConsoleAppender" />
+            <AppenderRef ref="FileAppender" />
+        </Root>
+        <Logger name="org.apache.kafka" level="INFO" />
+    </Loggers>
+</Configuration>

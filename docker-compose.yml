@@ -1,0 +1,18 @@
+version: "2"
+services:
+ kafka:
+  image: nirayaslan/custom_kafka
+  ports:
+  - "9092:9092"
+  - "2181:2181"
+  hostname: kafka
+  expose:
+  - "9092"
+  - "2181"
+ cassandra:
+  image: cassandra
+  ports:
+  - "9042:9042"
+  hostname: cassandra
+  expose:
+  - "9042"

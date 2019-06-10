@@ -1,0 +1,564 @@
+2019-06-09 22:55:48.555 INFO ProducerConfig values: 
+	acks = 1
+	batch.size = 0
+	bootstrap.servers = [localhost:9092]
+	buffer.memory = 33554432
+	client.id = 
+	compression.type = none
+	connections.max.idle.ms = 540000
+	enable.idempotence = false
+	interceptor.classes = []
+	key.serializer = class org.apache.kafka.common.serialization.ByteArraySerializer
+	linger.ms = 0
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 0
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class org.apache.kafka.common.serialization.ByteArraySerializer
+
+2019-06-09 22:55:48.619 INFO Kafka version : 2.0.1
+2019-06-09 22:55:48.621 INFO Kafka commitId : fa14705e51bd2ce5
+2019-06-09 22:55:48.635 INFO [Producer clientId=producer-1] Closing the Kafka producer with timeoutMillis = 9223372036854775807 ms.
+2019-06-09 22:55:49.184 INFO Cluster ID: qLqN8XukS02lF2uuDBXMMA
+2019-06-09 22:55:48.914 INFO Starting Application on serdar-K55VJ with PID 11645 (/home/serdar/TebApplications/log-creator/target/classes started by serdar in /home/serdar/TebApplications/log-creator)
+2019-06-09 22:55:49.223 INFO No active profile set, falling back to default profiles: default
+2019-06-09 22:55:50.359 INFO Bean 'org.springframework.kafka.annotation.KafkaBootstrapConfiguration' of type [org.springframework.kafka.annotation.KafkaBootstrapConfiguration$$EnhancerBySpringCGLIB$$7f9ab672] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-09 22:55:50.792 INFO Tomcat initialized with port(s): 8080 (http)
+2019-06-09 22:55:50.819 INFO Initializing ProtocolHandler ["http-nio-8080"]
+2019-06-09 22:55:50.844 INFO Starting service [Tomcat]
+2019-06-09 22:55:50.850 INFO Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-06-09 22:55:50.984 INFO Initializing Spring embedded WebApplicationContext
+2019-06-09 22:55:50.988 INFO Root WebApplicationContext: initialization completed in 1693 ms
+2019-06-09 22:55:51.401 INFO Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-09 22:55:51.811 INFO Starting ProtocolHandler ["http-nio-8080"]
+2019-06-09 22:55:51.852 INFO Tomcat started on port(s): 8080 (http) with context path ''
+2019-06-09 22:55:51.870 INFO Started Application in 4.381 seconds (JVM running for 14.622)
+2019-06-09 22:55:53.877 INFO Istanbul Hello-From-Istanbul
+2019-06-09 22:55:55.881 INFO Istanbul Hello-From-Istanbul
+2019-06-09 22:55:57.886 INFO Istanbul Hello-From-Istanbul
+2019-06-09 22:55:59.892 INFO Moskow Hello-From-Moskow
+2019-06-09 22:56:01.896 INFO Beijing Hello-From-Beijing
+2019-06-09 22:56:03.904 INFO Istanbul Hello-From-Istanbul
+2019-06-09 22:56:05.908 INFO Beijing Hello-From-Beijing
+2019-06-09 22:56:07.914 INFO London Hello-From-London
+2019-06-09 22:56:09.919 INFO Tokyo Hello-From-Tokyo
+2019-06-09 22:56:11.923 INFO Beijing Hello-From-Beijing
+2019-06-09 22:56:13.928 INFO London Hello-From-London
+2019-06-09 22:56:15.933 INFO Beijing Hello-From-Beijing
+2019-06-09 22:56:17.941 INFO London Hello-From-London
+2019-06-09 22:56:19.947 INFO Istanbul Hello-From-Istanbul
+2019-06-09 22:56:21.953 INFO Istanbul Hello-From-Istanbul
+2019-06-09 22:56:23.958 INFO London Hello-From-London
+2019-06-09 22:56:25.963 INFO Istanbul Hello-From-Istanbul
+2019-06-09 22:56:27.967 INFO Beijing Hello-From-Beijing
+2019-06-09 22:56:29.973 INFO Beijing Hello-From-Beijing
+2019-06-09 22:56:31.978 INFO London Hello-From-London
+2019-06-09 22:56:33.982 INFO Beijing Hello-From-Beijing
+2019-06-09 22:56:35.987 INFO Tokyo Hello-From-Tokyo
+2019-06-09 22:56:37.992 INFO Beijing Hello-From-Beijing
+2019-06-09 22:56:39.998 INFO Istanbul Hello-From-Istanbul
+2019-06-09 22:56:42.005 INFO Istanbul Hello-From-Istanbul
+2019-06-09 22:56:44.012 INFO London Hello-From-London
+2019-06-09 22:56:46.015 INFO Beijing Hello-From-Beijing
+2019-06-09 22:56:48.027 INFO London Hello-From-London
+2019-06-09 22:56:50.032 INFO Istanbul Hello-From-Istanbul
+2019-06-09 22:56:52.036 INFO Istanbul Hello-From-Istanbul
+2019-06-09 22:56:54.044 INFO Tokyo Hello-From-Tokyo
+2019-06-09 22:56:56.048 INFO Moskow Hello-From-Moskow
+2019-06-09 22:56:58.053 INFO Tokyo Hello-From-Tokyo
+2019-06-09 22:57:00.057 INFO Istanbul Hello-From-Istanbul
+2019-06-09 22:57:02.060 INFO Beijing Hello-From-Beijing
+2019-06-09 22:57:04.081 INFO Tokyo Hello-From-Tokyo
+2019-06-09 22:57:06.088 INFO Istanbul Hello-From-Istanbul
+2019-06-09 22:57:08.093 INFO Moskow Hello-From-Moskow
+2019-06-09 22:57:10.098 INFO Tokyo Hello-From-Tokyo
+2019-06-09 22:57:12.104 INFO Beijing Hello-From-Beijing
+2019-06-09 22:57:14.107 INFO Beijing Hello-From-Beijing
+2019-06-09 22:57:16.112 INFO Beijing Hello-From-Beijing
+2019-06-09 22:57:18.116 INFO Istanbul Hello-From-Istanbul
+2019-06-09 22:57:20.119 INFO Istanbul Hello-From-Istanbul
+2019-06-09 22:57:22.125 INFO Moskow Hello-From-Moskow
+2019-06-09 22:57:24.130 INFO London Hello-From-London
+2019-06-09 22:57:26.137 INFO Moskow Hello-From-Moskow
+2019-06-09 22:57:28.141 INFO Istanbul Hello-From-Istanbul
+2019-06-09 22:57:30.145 INFO Beijing Hello-From-Beijing
+2019-06-09 22:57:32.149 INFO London Hello-From-London
+2019-06-09 22:57:34.153 INFO Moskow Hello-From-Moskow
+2019-06-09 22:57:36.158 INFO Moskow Hello-From-Moskow
+2019-06-09 22:57:38.161 INFO Moskow Hello-From-Moskow
+2019-06-09 22:57:40.165 INFO Tokyo Hello-From-Tokyo
+2019-06-09 22:57:42.169 INFO Tokyo Hello-From-Tokyo
+2019-06-09 22:57:44.172 INFO London Hello-From-London
+2019-06-09 22:57:46.177 INFO London Hello-From-London
+2019-06-09 22:57:48.182 INFO London Hello-From-London
+2019-06-09 22:57:50.187 INFO Tokyo Hello-From-Tokyo
+2019-06-09 22:57:52.192 INFO Istanbul Hello-From-Istanbul
+2019-06-09 22:57:54.195 INFO Istanbul Hello-From-Istanbul
+2019-06-09 22:57:56.200 INFO Tokyo Hello-From-Tokyo
+2019-06-09 22:57:58.206 INFO London Hello-From-London
+2019-06-09 22:58:00.211 INFO Istanbul Hello-From-Istanbul
+2019-06-09 22:58:02.215 INFO London Hello-From-London
+2019-06-09 22:58:04.427 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 22:58:04.765 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 22:58:05.571 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 22:58:06.453 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 22:58:07.334 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 22:58:08.151 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 22:58:09.108 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 22:58:10.290 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 22:58:11.278 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 22:58:12.313 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 22:58:13.484 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 22:58:14.562 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 22:58:15.413 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 22:58:16.450 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 22:58:17.289 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 22:58:18.090 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 22:58:18.920 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 22:58:19.852 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 22:58:20.654 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 22:58:21.508 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 22:58:22.422 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 22:58:23.377 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 22:58:24.366 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 22:58:25.419 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 22:58:26.499 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 22:58:27.484 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 22:58:28.619 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 22:58:29.505 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 22:58:30.370 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 22:58:31.471 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 22:58:32.634 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 22:58:33.796 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 22:58:04.219 INFO Istanbul Hello-From-Istanbul
+2019-06-09 22:58:34.806 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 22:58:35.815 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 22:58:36.941 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 22:58:37.914 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 22:58:38.746 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 22:58:39.688 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 22:58:40.740 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 22:58:41.683 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 22:58:42.766 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 22:58:43.805 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 22:58:44.684 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 22:58:45.850 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 22:58:46.982 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 22:58:47.942 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 22:58:48.804 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 22:58:49.819 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 22:58:50.639 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 22:58:51.601 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 22:58:52.418 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 22:58:53.482 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 22:58:54.344 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 22:58:55.361 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 22:58:56.196 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 22:58:57.076 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 22:58:58.212 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 22:58:59.600 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 22:59:00.517 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 22:59:01.543 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 22:59:02.651 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 22:59:03.830 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 22:59:04.868 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 22:59:05.876 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 22:58:36.267 INFO Tokyo Hello-From-Tokyo
+2019-06-09 22:59:06.683 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 22:59:07.741 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 22:59:08.600 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 22:59:09.746 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 22:59:10.660 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 22:59:11.789 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 22:59:12.640 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 22:59:13.828 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 22:59:15.013 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 22:59:16.135 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 22:59:17.225 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 22:59:18.079 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 22:59:18.885 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 22:59:19.954 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 22:59:21.059 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 22:59:21.993 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 22:59:23.185 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 22:59:24.305 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 22:59:25.339 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 22:59:26.173 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 22:59:27.149 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 22:59:27.957 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 22:59:29.090 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 22:59:29.927 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 22:59:30.855 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 22:59:31.886 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 22:59:32.889 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 22:59:33.965 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 22:59:34.768 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 22:59:35.749 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 22:59:36.595 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 22:59:37.592 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 22:59:08.285 INFO Istanbul Hello-From-Istanbul
+2019-06-09 22:59:38.701 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 22:59:39.760 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 22:59:40.674 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 22:59:41.571 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 22:59:42.461 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 22:59:43.562 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 22:59:44.387 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 22:59:45.226 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 22:59:46.147 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 22:59:47.139 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 22:59:48.306 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 22:59:49.144 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 22:59:50.107 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 22:59:51.160 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 22:59:52.339 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 22:59:53.287 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 22:59:54.326 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 22:59:55.363 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 22:59:56.399 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 22:59:57.226 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 22:59:58.238 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 22:59:59.154 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 22:59:59.968 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 23:00:01.122 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 23:00:02.191 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 23:00:03.324 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 23:00:04.488 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 23:00:05.542 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 23:00:06.740 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 23:00:07.735 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 23:00:08.561 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 23:00:09.557 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 22:59:40.303 INFO Tokyo Hello-From-Tokyo
+2019-06-09 23:00:10.414 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 23:00:11.372 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 23:00:12.420 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 23:00:13.368 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 23:00:14.448 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 23:00:15.547 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 23:00:16.648 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 23:00:17.632 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 23:00:18.638 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 23:00:19.637 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 23:00:20.668 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 23:00:21.527 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 23:00:22.406 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 23:00:23.503 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 23:00:24.405 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 23:00:25.576 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 23:00:26.763 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 23:00:27.857 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 23:00:28.763 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 23:00:29.809 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 23:00:30.867 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 23:00:32.007 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 23:00:32.974 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 23:00:33.870 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 23:00:34.989 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 23:00:35.921 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 23:00:37.003 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 23:00:37.872 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 23:00:38.990 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 23:00:39.949 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 23:00:41.007 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 23:00:41.997 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 23:00:12.321 INFO London Hello-From-London
+2019-06-09 23:00:43.147 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 23:00:44.068 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 23:00:45.168 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 23:00:46.039 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 23:00:47.162 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 23:00:48.091 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 23:00:49.142 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 23:00:19.737 INFO Shutting down ExecutorService 'applicationTaskExecutor'
+2019-06-09 23:05:56.237 INFO ProducerConfig values: 
+	acks = 1
+	batch.size = 0
+	bootstrap.servers = [localhost:9092]
+	buffer.memory = 33554432
+	client.id = 
+	compression.type = none
+	connections.max.idle.ms = 540000
+	enable.idempotence = false
+	interceptor.classes = []
+	key.serializer = class org.apache.kafka.common.serialization.ByteArraySerializer
+	linger.ms = 0
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 0
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class org.apache.kafka.common.serialization.ByteArraySerializer
+
+2019-06-09 23:05:56.268 INFO Kafka version : 2.0.1
+2019-06-09 23:05:56.269 INFO Kafka commitId : fa14705e51bd2ce5
+2019-06-09 23:05:56.292 INFO [Producer clientId=producer-1] Closing the Kafka producer with timeoutMillis = 9223372036854775807 ms.
+2019-06-09 23:05:57.122 INFO Cluster ID: qLqN8XukS02lF2uuDBXMMA
+2019-06-09 23:05:56.578 INFO Starting Application on serdar-K55VJ with PID 13951 (/home/serdar/TebApplications/log-creator/target/classes started by serdar in /home/serdar/TebApplications/log-creator)
+2019-06-09 23:05:57.345 INFO No active profile set, falling back to default profiles: default
+2019-06-09 23:05:58.466 INFO Bean 'org.springframework.kafka.annotation.KafkaBootstrapConfiguration' of type [org.springframework.kafka.annotation.KafkaBootstrapConfiguration$$EnhancerBySpringCGLIB$$491f9554] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-09 23:05:58.875 INFO Tomcat initialized with port(s): 8080 (http)
+2019-06-09 23:05:58.906 INFO Initializing ProtocolHandler ["http-nio-8080"]
+2019-06-09 23:05:58.943 INFO Starting service [Tomcat]
+2019-06-09 23:05:58.953 INFO Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-06-09 23:05:59.093 INFO Initializing Spring embedded WebApplicationContext
+2019-06-09 23:05:59.098 INFO Root WebApplicationContext: initialization completed in 1668 ms
+2019-06-09 23:05:59.451 INFO Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-09 23:05:59.851 INFO Starting ProtocolHandler ["http-nio-8080"]
+2019-06-09 23:05:59.891 INFO Tomcat started on port(s): 8080 (http) with context path ''
+2019-06-09 23:05:59.909 INFO Started Application in 4.033 seconds (JVM running for 10.319)
+2019-06-09 23:06:01.917 INFO Beijing Hello-From-Beijing
+2019-06-09 23:06:03.923 INFO Moskow Hello-From-Moskow
+2019-06-09 23:06:05.930 INFO Beijing Hello-From-Beijing
+2019-06-09 23:06:07.935 INFO Istanbul Hello-From-Istanbul
+2019-06-09 23:06:09.941 INFO Moskow Hello-From-Moskow
+2019-06-09 23:06:11.946 INFO Moskow Hello-From-Moskow
+2019-06-09 23:06:13.950 INFO Istanbul Hello-From-Istanbul
+2019-06-09 23:06:15.959 INFO Istanbul Hello-From-Istanbul
+2019-06-09 23:06:17.994 INFO Beijing Hello-From-Beijing
+2019-06-09 23:06:19.999 INFO London Hello-From-London
+2019-06-09 23:06:22.006 INFO Tokyo Hello-From-Tokyo
+2019-06-09 23:06:24.011 INFO Beijing Hello-From-Beijing
+2019-06-09 23:06:26.015 INFO Moskow Hello-From-Moskow
+2019-06-09 23:06:28.019 INFO Istanbul Hello-From-Istanbul
+2019-06-09 23:06:30.024 INFO Moskow Hello-From-Moskow
+2019-06-09 23:06:32.029 INFO Istanbul Hello-From-Istanbul
+2019-06-09 23:06:34.034 INFO London Hello-From-London
+2019-06-09 23:06:36.039 INFO London Hello-From-London
+2019-06-09 23:06:38.044 INFO Tokyo Hello-From-Tokyo
+2019-06-09 23:06:40.050 INFO Beijing Hello-From-Beijing
+2019-06-09 23:06:42.055 INFO London Hello-From-London
+2019-06-09 23:06:44.060 INFO Istanbul Hello-From-Istanbul
+2019-06-09 23:06:46.066 INFO Moskow Hello-From-Moskow
+2019-06-09 23:06:48.070 INFO London Hello-From-London
+2019-06-09 23:06:50.076 INFO London Hello-From-London
+2019-06-09 23:06:52.082 INFO Beijing Hello-From-Beijing
+2019-06-09 23:06:54.087 INFO Beijing Hello-From-Beijing
+2019-06-09 23:06:56.100 INFO Tokyo Hello-From-Tokyo
+2019-06-09 23:06:58.106 INFO Istanbul Hello-From-Istanbul
+2019-06-09 23:07:00.111 INFO London Hello-From-London
+2019-06-09 23:07:02.114 INFO Beijing Hello-From-Beijing
+2019-06-09 23:07:04.122 INFO London Hello-From-London
+2019-06-09 23:07:06.125 INFO London Hello-From-London
+2019-06-09 23:07:08.130 INFO Beijing Hello-From-Beijing
+2019-06-09 23:07:10.135 INFO Beijing Hello-From-Beijing
+2019-06-09 23:07:12.139 INFO London Hello-From-London
+2019-06-09 23:07:14.144 INFO Tokyo Hello-From-Tokyo
+2019-06-09 23:07:16.149 INFO Tokyo Hello-From-Tokyo
+2019-06-09 23:07:18.153 INFO Tokyo Hello-From-Tokyo
+2019-06-09 23:07:20.157 INFO London Hello-From-London
+2019-06-09 23:07:22.163 INFO London Hello-From-London
+2019-06-09 23:07:24.168 INFO Tokyo Hello-From-Tokyo
+2019-06-09 23:07:26.174 INFO London Hello-From-London
+2019-06-09 23:07:28.178 INFO Istanbul Hello-From-Istanbul
+2019-06-09 23:07:30.183 INFO Moskow Hello-From-Moskow
+2019-06-09 23:07:32.188 INFO Istanbul Hello-From-Istanbul
+2019-06-09 23:07:34.192 INFO Moskow Hello-From-Moskow
+2019-06-09 23:07:36.195 INFO Beijing Hello-From-Beijing
+2019-06-09 23:07:38.201 INFO Beijing Hello-From-Beijing
+2019-06-09 23:07:40.206 INFO London Hello-From-London
+2019-06-09 23:07:42.210 INFO Istanbul Hello-From-Istanbul
+2019-06-09 23:07:44.215 INFO Moskow Hello-From-Moskow
+2019-06-09 23:07:46.220 INFO London Hello-From-London
+2019-06-09 23:07:48.225 INFO Istanbul Hello-From-Istanbul
+2019-06-09 23:07:50.229 INFO Istanbul Hello-From-Istanbul
+2019-06-09 23:07:52.234 INFO Tokyo Hello-From-Tokyo
+2019-06-09 23:07:54.239 INFO Istanbul Hello-From-Istanbul
+2019-06-09 23:07:56.244 INFO Beijing Hello-From-Beijing
+2019-06-09 23:07:58.249 INFO Moskow Hello-From-Moskow
+2019-06-09 23:08:00.253 INFO Beijing Hello-From-Beijing
+2019-06-09 23:08:02.262 INFO Istanbul Hello-From-Istanbul
+2019-06-09 23:08:04.265 INFO London Hello-From-London
+2019-06-09 23:08:06.270 INFO Moskow Hello-From-Moskow
+2019-06-09 23:08:08.274 INFO Moskow Hello-From-Moskow
+2019-06-09 23:08:10.279 INFO Beijing Hello-From-Beijing
+2019-06-09 23:08:12.284 INFO Istanbul Hello-From-Istanbul
+2019-06-09 23:08:14.290 INFO Istanbul Hello-From-Istanbul
+2019-06-09 23:08:16.295 INFO Tokyo Hello-From-Tokyo
+2019-06-09 23:08:18.301 INFO Istanbul Hello-From-Istanbul
+2019-06-09 23:08:20.306 INFO London Hello-From-London
+2019-06-09 23:08:22.311 INFO Beijing Hello-From-Beijing
+2019-06-09 23:08:24.317 INFO Beijing Hello-From-Beijing
+2019-06-09 23:08:26.322 INFO Beijing Hello-From-Beijing
+2019-06-09 23:08:28.324 INFO Moskow Hello-From-Moskow
+2019-06-09 23:08:30.328 INFO Beijing Hello-From-Beijing
+2019-06-09 23:08:32.331 INFO London Hello-From-London
+2019-06-09 23:08:34.336 INFO Tokyo Hello-From-Tokyo
+2019-06-09 23:08:36.340 INFO Moskow Hello-From-Moskow
+2019-06-09 23:08:38.343 INFO London Hello-From-London
+2019-06-09 23:08:40.347 INFO Beijing Hello-From-Beijing
+2019-06-09 23:08:42.383 INFO Moskow Hello-From-Moskow
+2019-06-09 23:08:44.386 INFO London Hello-From-London
+2019-06-09 23:08:46.393 INFO Moskow Hello-From-Moskow
+2019-06-09 23:08:48.480 INFO Tokyo Hello-From-Tokyo
+2019-06-09 23:08:50.487 INFO Moskow Hello-From-Moskow
+2019-06-09 23:08:52.493 INFO Moskow Hello-From-Moskow
+2019-06-09 23:08:54.496 INFO Beijing Hello-From-Beijing
+2019-06-09 23:08:56.508 INFO Beijing Hello-From-Beijing
+2019-06-09 23:08:58.512 INFO Istanbul Hello-From-Istanbul
+2019-06-09 23:09:00.517 INFO Moskow Hello-From-Moskow
+2019-06-09 23:09:02.522 INFO Beijing Hello-From-Beijing
+2019-06-09 23:09:04.610 INFO Moskow Hello-From-Moskow
+2019-06-09 23:09:06.613 INFO Moskow Hello-From-Moskow
+2019-06-09 23:09:08.616 INFO London Hello-From-London
+2019-06-09 23:09:10.619 INFO Moskow Hello-From-Moskow
+2019-06-09 23:09:12.623 INFO Moskow Hello-From-Moskow
+2019-06-09 23:09:14.629 INFO Beijing Hello-From-Beijing
+2019-06-09 23:09:16.636 INFO Beijing Hello-From-Beijing
+2019-06-09 23:09:18.641 INFO Moskow Hello-From-Moskow
+2019-06-09 23:09:20.644 INFO Moskow Hello-From-Moskow
+2019-06-09 23:09:22.649 INFO Moskow Hello-From-Moskow
+2019-06-09 23:09:24.654 INFO Moskow Hello-From-Moskow
+2019-06-09 23:09:26.657 INFO Moskow Hello-From-Moskow
+2019-06-09 23:09:28.661 INFO Beijing Hello-From-Beijing
+2019-06-09 23:09:30.665 INFO Moskow Hello-From-Moskow
+2019-06-09 23:09:32.668 INFO Tokyo Hello-From-Tokyo
+2019-06-09 23:09:34.673 INFO Moskow Hello-From-Moskow
+2019-06-09 23:09:36.679 INFO Istanbul Hello-From-Istanbul
+2019-06-09 23:09:38.689 INFO London Hello-From-London
+2019-06-09 23:09:40.693 INFO Moskow Hello-From-Moskow
+2019-06-09 23:09:42.696 INFO Moskow Hello-From-Moskow
+2019-06-09 23:09:44.699 INFO London Hello-From-London
+2019-06-09 23:09:46.702 INFO London Hello-From-London
+2019-06-09 23:09:48.705 INFO Tokyo Hello-From-Tokyo
+2019-06-09 23:09:50.708 INFO Istanbul Hello-From-Istanbul
+2019-06-09 23:09:52.712 INFO Moskow Hello-From-Moskow
+2019-06-09 23:09:54.714 INFO Moskow Hello-From-Moskow
+2019-06-09 23:09:56.716 INFO Tokyo Hello-From-Tokyo
+2019-06-09 23:09:58.719 INFO Istanbul Hello-From-Istanbul
+2019-06-09 23:10:00.721 INFO London Hello-From-London
+2019-06-09 23:10:02.727 INFO Moskow Hello-From-Moskow
+2019-06-09 23:10:04.732 INFO Istanbul Hello-From-Istanbul
+2019-06-09 23:10:06.735 INFO Istanbul Hello-From-Istanbul
+2019-06-09 23:10:08.740 INFO Istanbul Hello-From-Istanbul
+2019-06-09 23:10:10.744 INFO Moskow Hello-From-Moskow
+2019-06-09 23:10:12.750 INFO Moskow Hello-From-Moskow
+2019-06-09 23:10:14.753 INFO Istanbul Hello-From-Istanbul
+2019-06-09 23:10:16.756 INFO Beijing Hello-From-Beijing
+2019-06-09 23:10:17.960 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 23:10:18.365 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 23:10:19.245 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 23:10:20.239 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 23:10:21.407 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 23:10:22.428 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 23:10:23.489 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 23:10:24.489 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 23:10:25.411 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 23:10:26.239 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 23:10:27.059 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 23:10:28.235 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 23:10:29.273 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 23:10:30.352 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 23:10:31.491 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 23:10:32.598 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 23:10:33.602 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 23:10:34.794 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 23:10:35.681 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 23:10:36.580 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 23:10:37.667 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 23:10:38.702 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 23:10:39.851 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 23:10:40.725 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 23:10:41.761 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 23:10:42.946 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 23:10:43.797 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 23:10:44.741 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 23:10:45.939 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 23:10:46.826 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 23:10:47.839 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 23:10:48.642 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 23:10:18.759 INFO Moskow Hello-From-Moskow
+2019-06-09 23:10:49.672 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 23:10:50.824 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 23:10:51.843 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 23:10:52.691 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 23:10:53.534 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.
+2019-06-09 23:10:24.472 INFO Shutting down ExecutorService 'applicationTaskExecutor'
+2019-06-09 23:10:54.528 WARN [Producer clientId=producer-2] Connection to node 0 could not be established. Broker may not be available.

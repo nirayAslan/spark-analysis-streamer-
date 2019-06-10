@@ -1,0 +1,509 @@
+2019-06-10 22:51:58.575 INFO ProducerConfig values: 
+	acks = 1
+	batch.size = 0
+	bootstrap.servers = [localhost:9092]
+	buffer.memory = 33554432
+	client.id = 
+	compression.type = none
+	connections.max.idle.ms = 540000
+	enable.idempotence = false
+	interceptor.classes = []
+	key.serializer = class org.apache.kafka.common.serialization.ByteArraySerializer
+	linger.ms = 0
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 0
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class org.apache.kafka.common.serialization.ByteArraySerializer
+
+2019-06-10 22:51:58.661 INFO Kafka version : 2.0.1
+2019-06-10 22:51:58.663 INFO Kafka commitId : fa14705e51bd2ce5
+2019-06-10 22:51:58.678 INFO [Producer clientId=producer-1] Closing the Kafka producer with timeoutMillis = 9223372036854775807 ms.
+2019-06-10 22:51:59.323 INFO Cluster ID: qLqN8XukS02lF2uuDBXMMA
+2019-06-10 22:51:58.969 INFO Starting Application on serdar-K55VJ with PID 22239 (/home/serdar/TebApplications/log-creator/target/classes started by serdar in /home/serdar/TebApplications/log-creator)
+2019-06-10 22:51:59.474 INFO No active profile set, falling back to default profiles: default
+2019-06-10 22:52:00.545 INFO Bean 'org.springframework.kafka.annotation.KafkaBootstrapConfiguration' of type [org.springframework.kafka.annotation.KafkaBootstrapConfiguration$$EnhancerBySpringCGLIB$$7198c0db] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-10 22:52:00.998 INFO Tomcat initialized with port(s): 8080 (http)
+2019-06-10 22:52:01.034 INFO Initializing ProtocolHandler ["http-nio-8080"]
+2019-06-10 22:52:01.062 INFO Starting service [Tomcat]
+2019-06-10 22:52:01.067 INFO Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-06-10 22:52:01.202 INFO Initializing Spring embedded WebApplicationContext
+2019-06-10 22:52:01.206 INFO Root WebApplicationContext: initialization completed in 1619 ms
+2019-06-10 22:52:01.605 INFO Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-10 22:52:02.043 INFO Starting ProtocolHandler ["http-nio-8080"]
+2019-06-10 22:52:02.086 INFO Tomcat started on port(s): 8080 (http) with context path ''
+2019-06-10 22:52:02.101 INFO Started Application in 3.877 seconds (JVM running for 10.114)
+2019-06-10 22:52:04.110 INFO Beijing Hello-From-Beijing
+2019-06-10 22:52:06.116 INFO Beijing Hello-From-Beijing
+2019-06-10 22:52:08.120 INFO Tokyo Hello-From-Tokyo
+2019-06-10 22:52:10.126 INFO Istanbul Hello-From-Istanbul
+2019-06-10 22:52:12.131 INFO Beijing Hello-From-Beijing
+2019-06-10 22:52:14.138 INFO London Hello-From-London
+2019-06-10 22:52:16.144 INFO Beijing Hello-From-Beijing
+2019-06-10 22:52:18.150 INFO Beijing Hello-From-Beijing
+2019-06-10 22:52:20.156 INFO London Hello-From-London
+2019-06-10 22:52:22.162 INFO Beijing Hello-From-Beijing
+2019-06-10 22:52:24.168 INFO Istanbul Hello-From-Istanbul
+2019-06-10 22:52:26.174 INFO Tokyo Hello-From-Tokyo
+2019-06-10 22:52:28.180 INFO Tokyo Hello-From-Tokyo
+2019-06-10 22:52:30.186 INFO Moskow Hello-From-Moskow
+2019-06-10 22:52:32.192 INFO Istanbul Hello-From-Istanbul
+2019-06-10 22:52:34.198 INFO Tokyo Hello-From-Tokyo
+2019-06-10 22:52:36.203 INFO Beijing Hello-From-Beijing
+2019-06-10 22:52:38.206 INFO London Hello-From-London
+2019-06-10 22:52:40.212 INFO Moskow Hello-From-Moskow
+2019-06-10 22:52:42.217 INFO Beijing Hello-From-Beijing
+2019-06-10 22:52:44.220 INFO Moskow Hello-From-Moskow
+2019-06-10 22:52:46.226 INFO London Hello-From-London
+2019-06-10 22:52:48.229 INFO Istanbul Hello-From-Istanbul
+2019-06-10 22:52:50.235 INFO Tokyo Hello-From-Tokyo
+2019-06-10 22:52:52.241 INFO Istanbul Hello-From-Istanbul
+2019-06-10 22:52:54.249 INFO Tokyo Hello-From-Tokyo
+2019-06-10 22:52:56.254 INFO Beijing Hello-From-Beijing
+2019-06-10 22:52:58.265 INFO Moskow Hello-From-Moskow
+2019-06-10 22:53:00.274 INFO Istanbul Hello-From-Istanbul
+2019-06-10 22:53:02.280 INFO Moskow Hello-From-Moskow
+2019-06-10 22:53:04.285 INFO Tokyo Hello-From-Tokyo
+2019-06-10 22:53:06.290 INFO Tokyo Hello-From-Tokyo
+2019-06-10 22:53:08.296 INFO Beijing Hello-From-Beijing
+2019-06-10 22:53:10.303 INFO Istanbul Hello-From-Istanbul
+2019-06-10 22:53:12.308 INFO Moskow Hello-From-Moskow
+2019-06-10 22:53:14.314 INFO Beijing Hello-From-Beijing
+2019-06-10 22:53:16.318 INFO London Hello-From-London
+2019-06-10 22:53:18.325 INFO Moskow Hello-From-Moskow
+2019-06-10 22:53:20.331 INFO London Hello-From-London
+2019-06-10 22:53:22.334 INFO Istanbul Hello-From-Istanbul
+2019-06-10 22:53:24.338 INFO Istanbul Hello-From-Istanbul
+2019-06-10 22:53:26.344 INFO Moskow Hello-From-Moskow
+2019-06-10 22:53:28.349 INFO Moskow Hello-From-Moskow
+2019-06-10 22:53:30.354 INFO Moskow Hello-From-Moskow
+2019-06-10 22:53:32.359 INFO Tokyo Hello-From-Tokyo
+2019-06-10 22:53:34.364 INFO Tokyo Hello-From-Tokyo
+2019-06-10 22:53:36.370 INFO London Hello-From-London
+2019-06-10 22:53:38.376 INFO Moskow Hello-From-Moskow
+2019-06-10 22:53:40.382 INFO London Hello-From-London
+2019-06-10 22:53:42.387 INFO Beijing Hello-From-Beijing
+2019-06-10 22:53:44.392 INFO London Hello-From-London
+2019-06-10 22:53:46.398 INFO Tokyo Hello-From-Tokyo
+2019-06-10 22:53:48.402 INFO Istanbul Hello-From-Istanbul
+2019-06-10 22:53:50.405 INFO Tokyo Hello-From-Tokyo
+2019-06-10 22:53:52.410 INFO Moskow Hello-From-Moskow
+2019-06-10 22:53:54.415 INFO Tokyo Hello-From-Tokyo
+2019-06-10 22:53:56.420 INFO Moskow Hello-From-Moskow
+2019-06-10 22:53:58.425 INFO London Hello-From-London
+2019-06-10 22:54:00.430 INFO Moskow Hello-From-Moskow
+2019-06-10 22:54:02.435 INFO London Hello-From-London
+2019-06-10 22:54:04.438 INFO London Hello-From-London
+2019-06-10 22:54:06.443 INFO Moskow Hello-From-Moskow
+2019-06-10 22:54:08.448 INFO London Hello-From-London
+2019-06-10 22:54:10.453 INFO Tokyo Hello-From-Tokyo
+2019-06-10 22:54:12.457 INFO London Hello-From-London
+2019-06-10 22:54:14.462 INFO Istanbul Hello-From-Istanbul
+2019-06-10 22:54:16.468 INFO Moskow Hello-From-Moskow
+2019-06-10 22:54:18.473 INFO Beijing Hello-From-Beijing
+2019-06-10 22:54:20.478 INFO Moskow Hello-From-Moskow
+2019-06-10 22:54:22.484 INFO Beijing Hello-From-Beijing
+2019-06-10 22:54:24.489 INFO Beijing Hello-From-Beijing
+2019-06-10 22:54:26.494 INFO Moskow Hello-From-Moskow
+2019-06-10 22:54:28.500 INFO London Hello-From-London
+2019-06-10 22:54:30.506 INFO Tokyo Hello-From-Tokyo
+2019-06-10 22:54:32.511 INFO Tokyo Hello-From-Tokyo
+2019-06-10 22:54:34.515 INFO Tokyo Hello-From-Tokyo
+2019-06-10 22:54:36.519 INFO Moskow Hello-From-Moskow
+2019-06-10 22:54:38.524 INFO London Hello-From-London
+2019-06-10 22:54:40.529 INFO Tokyo Hello-From-Tokyo
+2019-06-10 22:54:42.533 INFO Tokyo Hello-From-Tokyo
+2019-06-10 22:54:44.535 INFO London Hello-From-London
+2019-06-10 22:54:46.540 INFO Istanbul Hello-From-Istanbul
+2019-06-10 22:54:48.545 INFO Tokyo Hello-From-Tokyo
+2019-06-10 22:54:50.554 INFO Beijing Hello-From-Beijing
+2019-06-10 22:54:52.557 INFO Tokyo Hello-From-Tokyo
+2019-06-10 22:54:54.560 INFO Tokyo Hello-From-Tokyo
+2019-06-10 22:54:56.565 INFO Moskow Hello-From-Moskow
+2019-06-10 22:54:58.569 INFO Tokyo Hello-From-Tokyo
+2019-06-10 22:55:00.574 INFO Istanbul Hello-From-Istanbul
+2019-06-10 22:55:02.577 INFO Beijing Hello-From-Beijing
+2019-06-10 22:55:04.582 INFO Beijing Hello-From-Beijing
+2019-06-10 22:55:06.586 INFO Tokyo Hello-From-Tokyo
+2019-06-10 22:55:08.593 INFO Istanbul Hello-From-Istanbul
+2019-06-10 22:55:10.598 INFO Beijing Hello-From-Beijing
+2019-06-10 22:55:12.601 INFO London Hello-From-London
+2019-06-10 22:55:14.604 INFO Moskow Hello-From-Moskow
+2019-06-10 22:55:16.609 INFO Beijing Hello-From-Beijing
+2019-06-10 22:55:18.614 INFO Tokyo Hello-From-Tokyo
+2019-06-10 22:55:20.619 INFO London Hello-From-London
+2019-06-10 22:55:22.624 INFO Tokyo Hello-From-Tokyo
+2019-06-10 22:55:24.629 INFO Beijing Hello-From-Beijing
+2019-06-10 22:55:26.634 INFO Tokyo Hello-From-Tokyo
+2019-06-10 22:55:28.638 INFO Tokyo Hello-From-Tokyo
+2019-06-10 22:55:30.643 INFO Tokyo Hello-From-Tokyo
+2019-06-10 22:55:32.646 INFO London Hello-From-London
+2019-06-10 22:55:34.656 INFO Beijing Hello-From-Beijing
+2019-06-10 22:55:36.662 INFO London Hello-From-London
+2019-06-10 22:55:38.665 INFO Moskow Hello-From-Moskow
+2019-06-10 22:55:40.671 INFO London Hello-From-London
+2019-06-10 22:55:42.677 INFO London Hello-From-London
+2019-06-10 22:55:44.682 INFO Tokyo Hello-From-Tokyo
+2019-06-10 22:55:46.688 INFO London Hello-From-London
+2019-06-10 22:55:48.694 INFO Moskow Hello-From-Moskow
+2019-06-10 22:55:50.700 INFO Istanbul Hello-From-Istanbul
+2019-06-10 22:55:52.704 INFO Beijing Hello-From-Beijing
+2019-06-10 22:55:54.711 INFO Istanbul Hello-From-Istanbul
+2019-06-10 22:55:56.715 INFO Moskow Hello-From-Moskow
+2019-06-10 22:55:58.720 INFO Tokyo Hello-From-Tokyo
+2019-06-10 22:56:00.723 INFO London Hello-From-London
+2019-06-10 22:56:02.755 INFO London Hello-From-London
+2019-06-10 22:56:05.020 INFO Tokyo Hello-From-Tokyo
+2019-06-10 22:56:07.058 INFO London Hello-From-London
+2019-06-10 22:56:09.061 INFO Istanbul Hello-From-Istanbul
+2019-06-10 22:56:11.067 INFO Istanbul Hello-From-Istanbul
+2019-06-10 22:56:13.072 INFO Beijing Hello-From-Beijing
+2019-06-10 22:56:15.083 INFO Istanbul Hello-From-Istanbul
+2019-06-10 22:56:17.087 INFO Istanbul Hello-From-Istanbul
+2019-06-10 22:56:19.091 INFO Moskow Hello-From-Moskow
+2019-06-10 22:56:21.096 INFO London Hello-From-London
+2019-06-10 22:56:23.100 INFO Moskow Hello-From-Moskow
+2019-06-10 22:56:25.104 INFO Tokyo Hello-From-Tokyo
+2019-06-10 22:56:27.107 INFO London Hello-From-London
+2019-06-10 22:56:29.113 INFO Moskow Hello-From-Moskow
+2019-06-10 22:56:31.117 INFO Tokyo Hello-From-Tokyo
+2019-06-10 22:56:33.121 INFO Beijing Hello-From-Beijing
+2019-06-10 22:56:35.125 INFO Tokyo Hello-From-Tokyo
+2019-06-10 22:56:37.130 INFO Beijing Hello-From-Beijing
+2019-06-10 22:56:39.134 INFO London Hello-From-London
+2019-06-10 22:56:41.139 INFO Moskow Hello-From-Moskow
+2019-06-10 22:56:43.143 INFO London Hello-From-London
+2019-06-10 22:56:45.147 INFO Beijing Hello-From-Beijing
+2019-06-10 22:56:47.151 INFO Istanbul Hello-From-Istanbul
+2019-06-10 22:56:49.157 INFO Beijing Hello-From-Beijing
+2019-06-10 22:56:51.161 INFO Beijing Hello-From-Beijing
+2019-06-10 22:56:53.166 INFO Moskow Hello-From-Moskow
+2019-06-10 22:56:55.170 INFO Moskow Hello-From-Moskow
+2019-06-10 22:56:57.175 INFO Tokyo Hello-From-Tokyo
+2019-06-10 22:56:59.179 INFO Beijing Hello-From-Beijing
+2019-06-10 22:57:01.183 INFO London Hello-From-London
+2019-06-10 22:57:03.187 INFO Istanbul Hello-From-Istanbul
+2019-06-10 22:57:05.192 INFO Tokyo Hello-From-Tokyo
+2019-06-10 22:57:07.196 INFO Istanbul Hello-From-Istanbul
+2019-06-10 22:57:09.201 INFO Beijing Hello-From-Beijing
+2019-06-10 22:57:11.207 INFO Tokyo Hello-From-Tokyo
+2019-06-10 22:57:13.211 INFO Istanbul Hello-From-Istanbul
+2019-06-10 22:57:15.215 INFO Tokyo Hello-From-Tokyo
+2019-06-10 22:57:17.219 INFO Beijing Hello-From-Beijing
+2019-06-10 22:57:19.224 INFO Tokyo Hello-From-Tokyo
+2019-06-10 22:57:21.228 INFO London Hello-From-London
+2019-06-10 22:57:23.231 INFO Tokyo Hello-From-Tokyo
+2019-06-10 22:57:25.236 INFO Tokyo Hello-From-Tokyo
+2019-06-10 22:57:27.241 INFO London Hello-From-London
+2019-06-10 22:57:29.243 INFO Beijing Hello-From-Beijing
+2019-06-10 22:57:31.246 INFO Beijing Hello-From-Beijing
+2019-06-10 22:57:33.251 INFO Moskow Hello-From-Moskow
+2019-06-10 22:57:35.255 INFO Istanbul Hello-From-Istanbul
+2019-06-10 22:57:37.258 INFO Tokyo Hello-From-Tokyo
+2019-06-10 22:57:39.261 INFO Istanbul Hello-From-Istanbul
+2019-06-10 22:57:41.266 INFO London Hello-From-London
+2019-06-10 22:57:43.271 INFO Tokyo Hello-From-Tokyo
+2019-06-10 22:57:45.275 INFO Moskow Hello-From-Moskow
+2019-06-10 22:57:47.280 INFO Beijing Hello-From-Beijing
+2019-06-10 22:57:49.285 INFO Moskow Hello-From-Moskow
+2019-06-10 22:57:51.291 INFO Beijing Hello-From-Beijing
+2019-06-10 22:57:53.296 INFO Tokyo Hello-From-Tokyo
+2019-06-10 22:57:55.301 INFO London Hello-From-London
+2019-06-10 22:57:57.305 INFO London Hello-From-London
+2019-06-10 22:57:59.310 INFO Beijing Hello-From-Beijing
+2019-06-10 22:58:01.315 INFO London Hello-From-London
+2019-06-10 22:58:03.320 INFO Tokyo Hello-From-Tokyo
+2019-06-10 22:58:05.324 INFO Istanbul Hello-From-Istanbul
+2019-06-10 22:58:07.328 INFO Tokyo Hello-From-Tokyo
+2019-06-10 22:58:09.333 INFO London Hello-From-London
+2019-06-10 22:58:11.337 INFO Tokyo Hello-From-Tokyo
+2019-06-10 22:58:13.341 INFO Beijing Hello-From-Beijing
+2019-06-10 22:58:15.345 INFO Moskow Hello-From-Moskow
+2019-06-10 22:58:17.350 INFO Istanbul Hello-From-Istanbul
+2019-06-10 22:58:19.354 INFO Moskow Hello-From-Moskow
+2019-06-10 22:58:21.358 INFO Moskow Hello-From-Moskow
+2019-06-10 22:58:23.362 INFO Moskow Hello-From-Moskow
+2019-06-10 22:58:25.367 INFO Tokyo Hello-From-Tokyo
+2019-06-10 22:58:27.370 INFO Moskow Hello-From-Moskow
+2019-06-10 22:58:29.374 INFO Istanbul Hello-From-Istanbul
+2019-06-10 22:58:31.378 INFO Beijing Hello-From-Beijing
+2019-06-10 22:58:33.382 INFO Istanbul Hello-From-Istanbul
+2019-06-10 22:58:35.387 INFO Moskow Hello-From-Moskow
+2019-06-10 22:58:37.392 INFO Beijing Hello-From-Beijing
+2019-06-10 22:58:39.396 INFO Beijing Hello-From-Beijing
+2019-06-10 22:58:41.400 INFO Tokyo Hello-From-Tokyo
+2019-06-10 22:58:43.404 INFO Tokyo Hello-From-Tokyo
+2019-06-10 22:58:45.408 INFO London Hello-From-London
+2019-06-10 22:58:47.412 INFO Tokyo Hello-From-Tokyo
+2019-06-10 22:58:49.417 INFO Tokyo Hello-From-Tokyo
+2019-06-10 22:58:51.421 INFO Moskow Hello-From-Moskow
+2019-06-10 22:58:53.425 INFO Tokyo Hello-From-Tokyo
+2019-06-10 22:58:55.429 INFO Istanbul Hello-From-Istanbul
+2019-06-10 22:58:57.433 INFO Moskow Hello-From-Moskow
+2019-06-10 22:58:59.437 INFO Beijing Hello-From-Beijing
+2019-06-10 22:59:01.441 INFO Istanbul Hello-From-Istanbul
+2019-06-10 22:59:03.445 INFO Moskow Hello-From-Moskow
+2019-06-10 22:59:05.450 INFO Beijing Hello-From-Beijing
+2019-06-10 22:59:07.454 INFO Istanbul Hello-From-Istanbul
+2019-06-10 22:59:09.475 INFO Moskow Hello-From-Moskow
+2019-06-10 22:59:11.479 INFO Tokyo Hello-From-Tokyo
+2019-06-10 22:59:13.483 INFO Tokyo Hello-From-Tokyo
+2019-06-10 22:59:15.487 INFO Tokyo Hello-From-Tokyo
+2019-06-10 22:59:17.491 INFO London Hello-From-London
+2019-06-10 22:59:19.495 INFO Istanbul Hello-From-Istanbul
+2019-06-10 22:59:21.499 INFO Istanbul Hello-From-Istanbul
+2019-06-10 22:59:23.504 INFO Tokyo Hello-From-Tokyo
+2019-06-10 22:59:25.508 INFO London Hello-From-London
+2019-06-10 22:59:27.511 INFO Istanbul Hello-From-Istanbul
+2019-06-10 22:59:29.514 INFO Moskow Hello-From-Moskow
+2019-06-10 22:59:31.517 INFO Tokyo Hello-From-Tokyo
+2019-06-10 22:59:33.522 INFO Istanbul Hello-From-Istanbul
+2019-06-10 22:59:35.526 INFO Istanbul Hello-From-Istanbul
+2019-06-10 22:59:37.529 INFO Beijing Hello-From-Beijing
+2019-06-10 22:59:39.532 INFO London Hello-From-London
+2019-06-10 22:59:41.535 INFO London Hello-From-London
+2019-06-10 22:59:43.538 INFO Beijing Hello-From-Beijing
+2019-06-10 22:59:45.542 INFO London Hello-From-London
+2019-06-10 22:59:47.544 INFO Tokyo Hello-From-Tokyo
+2019-06-10 22:59:49.546 INFO London Hello-From-London
+2019-06-10 22:59:51.551 INFO Tokyo Hello-From-Tokyo
+2019-06-10 22:59:53.553 INFO Moskow Hello-From-Moskow
+2019-06-10 22:59:55.558 INFO Moskow Hello-From-Moskow
+2019-06-10 22:59:57.563 INFO Istanbul Hello-From-Istanbul
+2019-06-10 22:59:59.567 INFO London Hello-From-London
+2019-06-10 23:00:01.573 INFO Istanbul Hello-From-Istanbul
+2019-06-10 23:00:03.577 INFO Tokyo Hello-From-Tokyo
+2019-06-10 23:00:05.581 INFO Moskow Hello-From-Moskow
+2019-06-10 23:00:07.585 INFO London Hello-From-London
+2019-06-10 23:00:09.589 INFO Tokyo Hello-From-Tokyo
+2019-06-10 23:00:11.594 INFO Moskow Hello-From-Moskow
+2019-06-10 23:00:13.598 INFO Beijing Hello-From-Beijing
+2019-06-10 23:00:15.602 INFO Istanbul Hello-From-Istanbul
+2019-06-10 23:00:17.604 INFO Beijing Hello-From-Beijing
+2019-06-10 23:00:19.608 INFO Istanbul Hello-From-Istanbul
+2019-06-10 23:00:21.612 INFO Tokyo Hello-From-Tokyo
+2019-06-10 23:00:23.616 INFO Tokyo Hello-From-Tokyo
+2019-06-10 23:00:25.618 INFO Moskow Hello-From-Moskow
+2019-06-10 23:00:27.622 INFO Moskow Hello-From-Moskow
+2019-06-10 23:00:29.626 INFO Moskow Hello-From-Moskow
+2019-06-10 23:00:31.630 INFO Istanbul Hello-From-Istanbul
+2019-06-10 23:00:33.633 INFO Beijing Hello-From-Beijing
+2019-06-10 23:00:35.637 INFO Beijing Hello-From-Beijing
+2019-06-10 23:00:37.641 INFO Istanbul Hello-From-Istanbul
+2019-06-10 23:00:39.646 INFO Tokyo Hello-From-Tokyo
+2019-06-10 23:00:41.649 INFO Moskow Hello-From-Moskow
+2019-06-10 23:00:43.653 INFO London Hello-From-London
+2019-06-10 23:00:45.657 INFO Istanbul Hello-From-Istanbul
+2019-06-10 23:00:47.661 INFO Beijing Hello-From-Beijing
+2019-06-10 23:00:49.664 INFO London Hello-From-London
+2019-06-10 23:00:51.668 INFO Istanbul Hello-From-Istanbul
+2019-06-10 23:00:53.672 INFO Beijing Hello-From-Beijing
+2019-06-10 23:00:55.676 INFO London Hello-From-London
+2019-06-10 23:00:57.679 INFO London Hello-From-London
+2019-06-10 23:00:59.683 INFO Tokyo Hello-From-Tokyo
+2019-06-10 23:01:01.709 INFO Tokyo Hello-From-Tokyo
+2019-06-10 23:01:03.714 INFO Tokyo Hello-From-Tokyo
+2019-06-10 23:01:05.718 INFO Beijing Hello-From-Beijing
+2019-06-10 23:01:07.722 INFO Tokyo Hello-From-Tokyo
+2019-06-10 23:01:09.727 INFO Istanbul Hello-From-Istanbul
+2019-06-10 23:01:11.731 INFO Moskow Hello-From-Moskow
+2019-06-10 23:01:13.738 INFO Moskow Hello-From-Moskow
+2019-06-10 23:01:15.744 INFO London Hello-From-London
+2019-06-10 23:01:17.748 INFO Beijing Hello-From-Beijing
+2019-06-10 23:01:19.752 INFO London Hello-From-London
+2019-06-10 23:01:21.755 INFO Beijing Hello-From-Beijing
+2019-06-10 23:01:23.758 INFO Istanbul Hello-From-Istanbul
+2019-06-10 23:01:25.769 INFO Moskow Hello-From-Moskow
+2019-06-10 23:01:27.773 INFO London Hello-From-London
+2019-06-10 23:01:29.775 INFO Beijing Hello-From-Beijing
+2019-06-10 23:01:31.777 INFO Tokyo Hello-From-Tokyo
+2019-06-10 23:01:33.780 INFO Istanbul Hello-From-Istanbul
+2019-06-10 23:01:35.782 INFO Beijing Hello-From-Beijing
+2019-06-10 23:01:37.784 INFO Beijing Hello-From-Beijing
+2019-06-10 23:01:39.786 INFO Tokyo Hello-From-Tokyo
+2019-06-10 23:01:41.789 INFO Beijing Hello-From-Beijing
+2019-06-10 23:01:43.791 INFO Tokyo Hello-From-Tokyo
+2019-06-10 23:01:45.794 INFO Beijing Hello-From-Beijing
+2019-06-10 23:01:47.796 INFO London Hello-From-London
+2019-06-10 23:01:49.799 INFO Tokyo Hello-From-Tokyo
+2019-06-10 23:01:51.802 INFO Istanbul Hello-From-Istanbul
+2019-06-10 23:01:53.806 INFO Beijing Hello-From-Beijing
+2019-06-10 23:01:55.808 INFO Beijing Hello-From-Beijing
+2019-06-10 23:01:57.811 INFO Istanbul Hello-From-Istanbul
+2019-06-10 23:01:59.815 INFO Istanbul Hello-From-Istanbul
+2019-06-10 23:02:01.819 INFO Istanbul Hello-From-Istanbul
+2019-06-10 23:02:03.822 INFO Tokyo Hello-From-Tokyo
+2019-06-10 23:02:05.825 INFO Beijing Hello-From-Beijing
+2019-06-10 23:02:07.828 INFO Tokyo Hello-From-Tokyo
+2019-06-10 23:02:09.832 INFO Istanbul Hello-From-Istanbul
+2019-06-10 23:02:11.834 INFO Beijing Hello-From-Beijing
+2019-06-10 23:02:13.837 INFO Beijing Hello-From-Beijing
+2019-06-10 23:02:15.841 INFO Moskow Hello-From-Moskow
+2019-06-10 23:02:17.844 INFO Tokyo Hello-From-Tokyo
+2019-06-10 23:02:19.846 INFO London Hello-From-London
+2019-06-10 23:02:21.850 INFO Moskow Hello-From-Moskow
+2019-06-10 23:02:23.853 INFO Istanbul Hello-From-Istanbul
+2019-06-10 23:02:25.855 INFO Istanbul Hello-From-Istanbul
+2019-06-10 23:02:27.857 INFO Tokyo Hello-From-Tokyo
+2019-06-10 23:02:29.860 INFO Moskow Hello-From-Moskow
+2019-06-10 23:02:31.864 INFO Tokyo Hello-From-Tokyo
+2019-06-10 23:02:33.867 INFO London Hello-From-London
+2019-06-10 23:02:35.870 INFO Moskow Hello-From-Moskow
+2019-06-10 23:02:37.873 INFO Beijing Hello-From-Beijing
+2019-06-10 23:02:39.877 INFO Moskow Hello-From-Moskow
+2019-06-10 23:02:41.880 INFO London Hello-From-London
+2019-06-10 23:02:43.883 INFO Istanbul Hello-From-Istanbul
+2019-06-10 23:02:45.887 INFO Beijing Hello-From-Beijing
+2019-06-10 23:02:47.892 INFO Tokyo Hello-From-Tokyo
+2019-06-10 23:02:49.896 INFO Tokyo Hello-From-Tokyo
+2019-06-10 23:02:51.898 INFO London Hello-From-London
+2019-06-10 23:02:53.901 INFO Tokyo Hello-From-Tokyo
+2019-06-10 23:02:55.904 INFO Istanbul Hello-From-Istanbul
+2019-06-10 23:02:57.908 INFO London Hello-From-London
+2019-06-10 23:02:59.910 INFO London Hello-From-London
+2019-06-10 23:03:01.914 INFO Beijing Hello-From-Beijing
+2019-06-10 23:03:03.918 INFO Beijing Hello-From-Beijing
+2019-06-10 23:03:05.921 INFO London Hello-From-London
+2019-06-10 23:03:07.923 INFO Tokyo Hello-From-Tokyo
+2019-06-10 23:03:09.926 INFO London Hello-From-London
+2019-06-10 23:03:11.930 INFO Tokyo Hello-From-Tokyo
+2019-06-10 23:03:13.934 INFO Tokyo Hello-From-Tokyo
+2019-06-10 23:03:15.936 INFO Istanbul Hello-From-Istanbul
+2019-06-10 23:03:17.940 INFO Moskow Hello-From-Moskow
+2019-06-10 23:03:19.943 INFO Moskow Hello-From-Moskow
+2019-06-10 23:03:21.946 INFO Moskow Hello-From-Moskow
+2019-06-10 23:03:23.949 INFO Istanbul Hello-From-Istanbul
+2019-06-10 23:03:25.953 INFO Tokyo Hello-From-Tokyo
+2019-06-10 23:03:27.956 INFO London Hello-From-London
+2019-06-10 23:03:29.960 INFO London Hello-From-London
+2019-06-10 23:03:31.963 INFO Moskow Hello-From-Moskow
+2019-06-10 23:03:33.965 INFO London Hello-From-London
+2019-06-10 23:03:35.969 INFO London Hello-From-London
+2019-06-10 23:03:37.972 INFO Beijing Hello-From-Beijing
+2019-06-10 23:03:39.974 INFO Istanbul Hello-From-Istanbul
+2019-06-10 23:03:41.978 INFO Tokyo Hello-From-Tokyo
+2019-06-10 23:03:43.980 INFO London Hello-From-London
+2019-06-10 23:03:45.984 INFO Tokyo Hello-From-Tokyo
+2019-06-10 23:03:47.986 INFO London Hello-From-London
+2019-06-10 23:03:49.990 INFO Beijing Hello-From-Beijing
+2019-06-10 23:03:51.993 INFO Moskow Hello-From-Moskow
+2019-06-10 23:03:53.996 INFO London Hello-From-London
+2019-06-10 23:03:56.000 INFO Tokyo Hello-From-Tokyo
+2019-06-10 23:03:58.004 INFO Moskow Hello-From-Moskow
+2019-06-10 23:04:00.009 INFO Beijing Hello-From-Beijing
+2019-06-10 23:04:02.013 INFO Moskow Hello-From-Moskow
+2019-06-10 23:04:04.016 INFO London Hello-From-London
+2019-06-10 23:04:06.018 INFO Istanbul Hello-From-Istanbul
+2019-06-10 23:04:08.021 INFO Tokyo Hello-From-Tokyo
+2019-06-10 23:04:10.024 INFO Beijing Hello-From-Beijing
+2019-06-10 23:04:12.027 INFO Istanbul Hello-From-Istanbul
+2019-06-10 23:04:14.030 INFO Istanbul Hello-From-Istanbul
+2019-06-10 23:04:16.032 INFO London Hello-From-London
+2019-06-10 23:04:18.035 INFO Tokyo Hello-From-Tokyo
+2019-06-10 23:04:20.037 INFO London Hello-From-London
+2019-06-10 23:04:22.041 INFO Tokyo Hello-From-Tokyo
+2019-06-10 23:04:24.045 INFO London Hello-From-London
+2019-06-10 23:04:26.048 INFO London Hello-From-London
+2019-06-10 23:04:28.052 INFO Moskow Hello-From-Moskow
+2019-06-10 23:04:30.055 INFO Moskow Hello-From-Moskow
+2019-06-10 23:04:32.058 INFO Tokyo Hello-From-Tokyo
+2019-06-10 23:04:34.061 INFO London Hello-From-London
+2019-06-10 23:04:36.063 INFO Moskow Hello-From-Moskow
+2019-06-10 23:04:38.066 INFO Istanbul Hello-From-Istanbul
+2019-06-10 23:04:40.070 INFO London Hello-From-London
+2019-06-10 23:04:42.073 INFO London Hello-From-London
+2019-06-10 23:04:44.076 INFO Istanbul Hello-From-Istanbul
+2019-06-10 23:04:46.079 INFO Beijing Hello-From-Beijing
+2019-06-10 23:04:48.082 INFO Moskow Hello-From-Moskow
+2019-06-10 23:04:50.085 INFO Tokyo Hello-From-Tokyo
+2019-06-10 23:04:52.089 INFO Moskow Hello-From-Moskow
+2019-06-10 23:04:54.092 INFO Moskow Hello-From-Moskow
+2019-06-10 23:04:56.095 INFO Istanbul Hello-From-Istanbul
+2019-06-10 23:04:58.097 INFO Beijing Hello-From-Beijing
+2019-06-10 23:05:00.100 INFO Tokyo Hello-From-Tokyo
+2019-06-10 23:05:02.103 INFO Istanbul Hello-From-Istanbul
+2019-06-10 23:05:04.107 INFO Istanbul Hello-From-Istanbul
+2019-06-10 23:05:06.110 INFO Moskow Hello-From-Moskow
+2019-06-10 23:05:08.113 INFO Istanbul Hello-From-Istanbul
+2019-06-10 23:05:10.117 INFO Istanbul Hello-From-Istanbul
+2019-06-10 23:05:12.120 INFO London Hello-From-London
+2019-06-10 23:05:14.123 INFO Moskow Hello-From-Moskow
+2019-06-10 23:05:16.126 INFO London Hello-From-London
+2019-06-10 23:05:18.129 INFO Istanbul Hello-From-Istanbul
+2019-06-10 23:05:20.132 INFO London Hello-From-London
+2019-06-10 23:05:22.143 INFO Istanbul Hello-From-Istanbul
+2019-06-10 23:05:24.146 INFO Beijing Hello-From-Beijing
+2019-06-10 23:05:26.169 INFO Istanbul Hello-From-Istanbul
+2019-06-10 23:05:28.172 INFO London Hello-From-London
+2019-06-10 23:05:30.175 INFO Tokyo Hello-From-Tokyo
+2019-06-10 23:05:32.179 INFO Istanbul Hello-From-Istanbul
+2019-06-10 23:05:34.182 INFO Istanbul Hello-From-Istanbul
+2019-06-10 23:05:36.185 INFO London Hello-From-London
+2019-06-10 23:05:38.188 INFO Tokyo Hello-From-Tokyo
+2019-06-10 23:05:40.191 INFO Istanbul Hello-From-Istanbul
+2019-06-10 23:05:42.194 INFO Tokyo Hello-From-Tokyo
+2019-06-10 23:05:44.198 INFO Moskow Hello-From-Moskow
+2019-06-10 23:05:46.202 INFO Tokyo Hello-From-Tokyo
+2019-06-10 23:05:48.204 INFO Moskow Hello-From-Moskow
+2019-06-10 23:05:50.207 INFO Istanbul Hello-From-Istanbul
+2019-06-10 23:05:52.210 INFO Moskow Hello-From-Moskow
+2019-06-10 23:05:54.213 INFO Tokyo Hello-From-Tokyo
+2019-06-10 23:05:56.215 INFO Tokyo Hello-From-Tokyo
+2019-06-10 23:05:58.218 INFO London Hello-From-London
+2019-06-10 23:06:00.221 INFO Istanbul Hello-From-Istanbul
+2019-06-10 23:06:02.225 INFO Beijing Hello-From-Beijing
+2019-06-10 23:06:04.229 INFO Tokyo Hello-From-Tokyo
+2019-06-10 23:06:06.232 INFO Istanbul Hello-From-Istanbul
+2019-06-10 23:06:08.235 INFO Istanbul Hello-From-Istanbul
+2019-06-10 23:06:10.238 INFO Moskow Hello-From-Moskow
+2019-06-10 23:06:12.241 INFO Beijing Hello-From-Beijing
+2019-06-10 23:06:14.244 INFO Tokyo Hello-From-Tokyo
+2019-06-10 23:06:16.247 INFO London Hello-From-London
+2019-06-10 23:06:18.251 INFO Beijing Hello-From-Beijing
+2019-06-10 23:06:20.254 INFO Moskow Hello-From-Moskow
+2019-06-10 23:06:22.256 INFO Istanbul Hello-From-Istanbul
+2019-06-10 23:06:24.260 INFO London Hello-From-London

@@ -22,7 +22,7 @@ TEB Application Project is a real-time, continuously generated logs can be shown
 
 For more information on the technologies used in this application:
 
-![Working Mechanism](https://i.hizliresim.com/GZp23b.png)
+![Working Mechanism](https://i.postimg.cc/ZRqnsRjq/GZp23b.png)
 
 First of all, we need to know that we have 3 separate projects.These;  
 -Log Creater,

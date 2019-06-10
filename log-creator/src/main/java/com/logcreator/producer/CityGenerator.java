@@ -7,7 +7,7 @@ import java.util.Random;
 /**
  * Rastgele Şehir İsmi Üretir
  *
- * @author serdar
+ * @author Niray Aslan
  */
 public class CityGenerator {
 

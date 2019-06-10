@@ -113,27 +113,27 @@ docker-compose up
 Docker Compose will pull all the Images in the YAML file first and then run it.
 
 - How can I run application without Docker?
-1-) 
+1-)Clone Project
 ```sh
-tar -zxvf TebApplications.tar.gz
+git clone https://github.com/nryasln34/spark-analysis-streamer-.git
 ```
 2-)
 ```sh
-cd TebApplications
+cd spark-analysis-streamer-/
 ```
 3-)
 ```sh
 docker-compose up
 ```
-4-)New console opens
+4-)Don't close this console and open new console after
 ```sh
 cd log-creator
 ```
-5-)
+5-)Run log-creator application
 ```sh
 mvn spring-boot:run
 ```
-6-)Come back to TebApplications's directory and open new browser
+6-)Don't close this console and open new console after come back to spark-analysis-streamer-'s directory(cd ..) after
 ```sh
 wget https://archive.apache.org/dist/spark/spark-2.1.0/spark-2.1.0-bin-hadoop2.6.tgz
 ```
@@ -144,23 +144,23 @@ tar -xvzf spark-2.1.0-bin-hadoop2.6.tgz
 ```sh
 cd spark-streamer
 ```
-8-)
+8-)create runnable jar
 ```sh
 mvn clean compile assembly:single
 ```
-9-)Come back to TebApplications's directory 
+9-)come back to spark-analysis-streamer-'s directory(cd ..)
 ```sh
 ./spark-2.1.0-bin-hadoop2.6/bin/spark-submit --jars spark-streaming_2.11-2.1.0.jar --class com.example.spark.streamer.Application spark-streamer/target/spark-streamer-1.0-SNAPSHOT-jar-with-dependencies.jar localhost:9092 unrefined
 ```
-10-)New console opens
+10-)Don't close this console and open new console after
 ```sh
 cd real-time-dashboard
 ```
-11-)
+11-)install npm packets
 ```sh
 npm install
 ```
-12-)
+12-)start nodejs server
 ```sh
 node index.js
 ```

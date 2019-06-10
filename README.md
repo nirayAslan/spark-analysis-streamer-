@@ -106,13 +106,9 @@ The output will look something like this:
 ```sh
 docker-compose version 1.23.1, build b02f1306
 ```
-After all, open the terminal or command line and navigate to the folder in the docker-compose.yml directory and run the docker-compose command.
-```sh
-docker-compose up
-```
-Docker Compose will pull all the Images in the YAML file first and then run it.
 
-- How can I run application without Docker?
+- How can I run applications and services:
+
 1-)Clone Project
 ```sh
 git clone https://github.com/nryasln34/spark-analysis-streamer-.git

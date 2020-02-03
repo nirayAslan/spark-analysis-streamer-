@@ -1,4 +1,4 @@
-# TEB Application Project
+# Application Project
 
 [![N|Solid](http://www.cbronline.com/wp-content/uploads/2016/06/Java.png)](https://www.java.com/tr/download/)
 

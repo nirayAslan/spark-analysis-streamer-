@@ -12,8 +12,7 @@
 
 [![Build Status](https://cdn.webrazzi.com/uploads/2012/08/a28e8_node-js.jpg)](https://nodejs.org/en/)
 
-
-TEB Application Project is a real-time, continuously generated logs can be shown in the browser as real time and be stored in a database. Developed using Spring MVC and Maven technologies. As well as Apache Kafka, Apache Spark technologies were used. In the final stage, Docker was used for dockerize my solution as a docker image / container on.
+Project is a real-time, continuously generated logs can be shown in the browser as real time and be stored in a database. Developed using Spring MVC and Maven technologies. As well as Apache Kafka, Apache Spark technologies were used. In the final stage, Docker was used for dockerize my solution as a docker image / container on.
 
   - The application shows the number of rows per city in a dashboard in real time
   - Data is stored in the database
